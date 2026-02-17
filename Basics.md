@@ -48,5 +48,5 @@ At this point it should say "nothing to commit, working tree clean"
 
 #### Files can also be:
 
-1. **Untracked** - a file not previously added and committed to the repository. Untracked files show up separately and are also red 🔴 in git status
+1. **Untracked** - a file not previously added and committed to the repository. Untracked files show up separately and are also red 🔴 in `git status`
 2. **Ignored** - add a file to .gitignore to ensure git does not track it - used for things like .env, \*.pem, other personal or secret-containing files
