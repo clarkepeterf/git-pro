@@ -1,5 +1,7 @@
 # Becoming a Git Pro
 
+![Git Podium Victory](./images/victory-git-podium.png)
+
 ## Table of Contents
 
 - [Basics](./Basics.md#basics)

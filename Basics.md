@@ -1,5 +1,7 @@
 ## Basics
 
+![Git Soccer Coach](./images/soccer-coach-git.png)
+
 ### 1. Make a local copy of this repository
 
 a) If you use https credentials:
