@@ -82,3 +82,5 @@ Available with:
 - [Beyond Compare](https://www.scootersoftware.com/kb/vcs)
 - [Meld](https://meldmerge.org/)
 - Many more options
+
+[Go Back To Table of Contents](./README.md#table-of-contents)

@@ -121,3 +121,5 @@ Here are official documentation links to the git commands discussed in this sect
 - [git commit](https://git-scm.com/docs/git-commit)
 - [git log](https://git-scm.com/docs/git-log)
 - [git push](https://git-scm.com/docs/git-push)
+
+[Go Back To Table of Contents](./README.md#table-of-contents)
