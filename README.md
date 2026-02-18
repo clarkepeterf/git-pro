@@ -22,3 +22,8 @@
   - [Use `HEAD` and `~` to reference commits](./ProMoves.md#use-head-and--to-reference-commits)
   - [Use `git blame` to find when a line changed](./ProMoves.md#use-git-blame-to-find-when-a-line-changed)
   - [Use `git revert` to revert a commit](./ProMoves.md#use-git-revert-to-revert-a-commit)
+  - [Use `git stash` to temporarily store work](./ProMoves.md#use-git-stash-to-temporarily-store-work)
+  - [Use `git cherry-pick` to apply specific commits](./ProMoves.md#use-git-cherry-pick-to-apply-specific-commits)
+  - [Use `git reset` to undo changes](./ProMoves.md#use-git-reset-to-undo-changes)
+  - [Use `git reflog` to recover "lost" commits](./ProMoves.md#use-git-reflog-to-recover-lost-commits)
+  - [Use `git bisect` to find bugs through binary search](./ProMoves.md#use-git-bisect-to-find-bugs-through-binary-search)
