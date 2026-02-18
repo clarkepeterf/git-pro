@@ -1,5 +1,7 @@
 ## Useful Tools
 
+![Useful Tools Git](./images/useful-tools-git.png)
+
 ### Git Completion
 
 This allows you to use tab completion for git commands, branches, tags, etc.
