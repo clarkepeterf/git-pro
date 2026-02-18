@@ -83,4 +83,6 @@ Available with:
 - [Meld](https://meldmerge.org/)
 - Many more options
 
+---
+
 [Go Back To Table of Contents](./README.md#table-of-contents)
