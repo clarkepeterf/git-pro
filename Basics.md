@@ -1,26 +1,26 @@
 ## Basics
 
-### Make a local copy of this repository
+### 1. Make a local copy of this repository
 
-If you use https credentials:
+a) If you use https credentials:
 
 ```
 git clone https://github.com/clarkepeterf/git-pro.git
 ```
 
-If you use ssh credentials:
+b) If you use ssh credentials:
 
 ```
 git clone git@github.com:clarkepeterf/git-pro.git
 ```
 
-You can also name a repository something different if you like:
+c) You can also name a repository something different if you like:
 
 ```
 git clone git@github.com:clarkepeterf/git-pro.git todays-presentation
 ```
 
-### Check out a branch
+### 2. Check out a branch
 
 Edit a set of changes that you or a peer worked on previously:
 
@@ -28,7 +28,15 @@ Edit a set of changes that you or a peer worked on previously:
 git checkout feature-branch-1
 ```
 
-### Make changes
+### 3. Get up-to-date
+
+Make sure you have the latest updates on this branch. If you checked it out previously, you may have a local copy that is further behind the remote branch.
+
+```
+git pull
+```
+
+### 4. Make changes
 
 View the current status of your repository:
 
@@ -53,21 +61,21 @@ At this point it should say "nothing to commit, working tree clean"
 
 #### Examples
 
-##### A)
+##### a)
 
 1. Edit **src/hello.js** so that it says `hello("$YOUR_NAME")` instead of `hello("World")` and save the file
 2. Execute `git status` in your terminal
 3. **hello.js** should show as **modified** in git's output
 
-##### B)
+##### b)
 
 1. Create a file called **new.js**
 2. Execute `git status` in your terminal
 3. **new.js** should show as an **untracked** file in git's output
 
-##### C)
+##### c)
 
-1. Follow examples A and B above
+1. Follow examples a and b above
 2. Execute `git add src/hello.js` in your terminal
 3. Execute `git status` in your terminal
 4. Now **hello.js** should be **staged** and **new.js** should still be **untracked** in git's output
@@ -75,7 +83,7 @@ At this point it should say "nothing to commit, working tree clean"
 6. Execuite `git status` in your terminal
 7. Now **hello.js** no longer shows up in git's output. Its changes have been committed and stored in the repository. **new.js** is still **untracked** - it can be tracked later with another `git add` and `git commit`
 
-### View commit history
+### 5. View commit history
 
 You can view commit history with:
 
@@ -89,13 +97,25 @@ This will show output like:
 
 To exit the git log pager, type `q`
 
-### Documentation links
+### 6. Share changes
+
+You can share your changes back to the remote branch with
+
+```
+git push
+```
+
+This allows your teammates to see your changes and add on to your work.
+
+### 7. Documentation links
 
 Here are official documentation links to the git commands discussed in this section:
 
 - [git clone](https://git-scm.com/docs/git-clone)
 - [git checkout](https://git-scm.com/docs/git-checkout)
+- [git pull](https://git-scm.com/docs/git-pull)
 - [git status](https://git-scm.com/docs/git-status)
 - [git add](https://git-scm.com/docs/git-add)
 - [git commit](https://git-scm.com/docs/git-commit)
 - [git log](https://git-scm.com/docs/git-log)
+- [git push](https://git-scm.com/docs/git-push)
