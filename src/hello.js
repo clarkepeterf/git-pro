@@ -1,10 +1,10 @@
 const readline = require("readline");
 
-function hello(name) {
-  return `Hello, ${name}!`;
+function hello(name, exclamation) {
+  return `Hello, ${name}${exclamation === "n" ? "." : "!"}`;
 }
 
-const questions = ["What is your name?"];
+const questions = ["What is your name?", "Should I shout? (y/n)"];
 const answers = [];
 
 const rl = readline.createInterface({
