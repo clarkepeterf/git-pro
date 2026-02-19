@@ -1,4 +1,4 @@
-Jennifer
-Dwayne
-Bob
-Ana
+Jennifer - Supervisor
+Dwayne - Developer
+Bob - Developer
+Ana - Developer
