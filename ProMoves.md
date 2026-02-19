@@ -321,6 +321,46 @@ git checkout main
 git merge feature-branch
 ```
 
+#### Comparison Example:
+
+```
+git checkout hello-empty-name
+# create a new branch to keep our example separated
+git checkout -b empty-exclamation-merge
+git merge hello-exclamation
+
+# commits look like this:
+# empty name -> exclamation -> merge
+
+git checkout hello-empty-name
+# create a new branch to keep our example separated
+git checkout -b empty-exclamation-rebase
+git rebase hello-exclamation
+
+# commits look like this:
+# exclamation -> empty name
+# - empty name happend AFTER exclamation, because we rebased
+# - there is no merge commit
+```
+
+#### Remote Merge / Rebase
+
+You can merge / rebase the latest from a remote branch (such as `main`) as well:
+
+**Merge:**
+
+```
+git checkout feature-branch
+git pull origin main
+```
+
+**Rebase:**
+
+```
+git checkout feature-branch
+git pull --rebase origin main
+```
+
 #### Key Differences:
 
 | Aspect          | Merge                        | Rebase                          |
