@@ -1,4 +1,4 @@
-Jennifer
-Dwayne
-Bob
-Ana
+Jennifer - Manager
+Dwayne - Lead Software Engineer
+Bob - Software Engineer
+Ana - Software Engineer
