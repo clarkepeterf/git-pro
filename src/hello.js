@@ -1,6 +1,7 @@
 const readline = require("readline");
 
 function hello(name) {
+  name = name || "World";
   return `Hello, ${name}!`;
 }
 
