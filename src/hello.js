@@ -1,10 +1,28 @@
 const readline = require("readline");
 
-function hello(name) {
-  return `Hello, ${name}!`;
+function hello(name, language) {
+  let greeting = "Hello";
+  switch (language.toLowerCase()) {
+    case "fr":
+      greeting = "Bonjour";
+      break;
+    case "es":
+      greeting = "Hola";
+      break;
+    case "zh":
+      greeting = "你好";
+      break;
+    // Add more languages as needed
+    default:
+      // keep "Hello"
+      break;
+  }
+  return `${greeting}, ${name}!`;
 }
-
-const questions = ["What is your name?"];
+const questions = [
+  "What is your name?",
+  "What language do you prefer? (en/fr/es/zh)",
+];
 const answers = [];
 
 const rl = readline.createInterface({
